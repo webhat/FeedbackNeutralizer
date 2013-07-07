@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013 Daniël W. Crompton <info+fbn@specialbrands.net>
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -->
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/background"
+        android:orientation="horizontal">
+    <GridLayout
+            android:id="@+id/app"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:columnOrderPreserved="true"
+            android:background="@color/background"
+            android:animateLayoutChanges="false"
+            android:clickable="false"
+            android:animationCache="false"
+            android:useDefaultMargins="false"
+            android:scrollbars="vertical"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fears"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="32dp"
+                android:layout_columnSpan="3"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:id="@+id/complete"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:textSize="32dp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="20dp"
+                android:textColor="#ff7100"
+                android:layout_marginRight="10dp" android:layout_marginLeft="10dp"
+                />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fears"
+                android:gravity="center"
+                android:background="#006561"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnSpan="4"
+                android:text="Anti Pattern"
+                />
+
+
+    </GridLayout>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="@string/fearquestion"
+            android:id="@+id/fear"
+            android:gravity="center|top"
+            android:background="#006561"
+            android:textColor="@color/black"
+            android:layout_alignLeft="@+id/app" android:layout_below="@+id/app"
+            android:textColorHint="@color/black"
+            android:layout_above="@+id/fearsave" android:layout_marginTop="10dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="@string/save"
+            android:id="@+id/fearsave"
+            android:height="30dp"
+            android:background="@drawable/greenbutton"
+            android:textColor="@color/black"
+            android:layout_above="@+id/fearnext"
+            android:hint="@string/save"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="@string/next"
+            android:id="@+id/fearnext"
+            android:height="30dp"
+            android:background="@drawable/greenbutton"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:hint="@string/next"
+            android:enabled="false"
+            />
+</RelativeLayout>

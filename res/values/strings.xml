@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2013 Daniël W. Crompton <info+fbn@specialbrands.net>
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -->
+
+<resources>
+    <string name="app_name">Feedback Neutralizer</string>
+    <string name="goal">Set Goal</string>
+    <string name="setgoal">My Goal</string>
+    <string name="goalquestion">What is your Goal?</string>
+    <string name="antipattern">My Behaviour</string>
+    <string name="antipatternquestion">What is one behaviour you need\nto stop to reach this goal?</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="fears">My Fears</string>
+    <string name="fearquestion">What scares you\nabout stopping this behaviour?\nor even doing the opposite?</string>
+    <string name="result">My Drivers</string>
+    <string name="sendtomyself">Send to myself</string>
+    <string name="size">20dp</string>
+    <string name="list_size">15dp</string>
+    <string name="choosegoal">Choose an important goal\nyou have had for a while</string>
+</resources>

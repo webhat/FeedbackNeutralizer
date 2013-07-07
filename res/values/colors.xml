@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013 Daniël W. Crompton <info+fbn@specialbrands.net>
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -->
+
+<resources>
+    <color name="black">#000</color>
+    <color name="blue">#00f</color>
+    <color name="red">#f00</color>
+    <color name="yellow1">#FFFF00</color>
+    <color name="yellow2">#FFCC00</color>
+    <color name="grey05">#505050</color>
+    <color name="orange4">#ff7100</color>
+    <color name="orange5">#ff7133</color>
+    <color name="green1">#33cdc7</color>
+    <color name="green2">#5ccdc9</color>
+    <color name="background">#1d7471</color>
+</resources>

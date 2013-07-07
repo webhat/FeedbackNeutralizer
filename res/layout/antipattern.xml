@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013 Daniël W. Crompton <info+fbn@specialbrands.net>
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="@string/antipattern"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/goal"
+            android:text="Goal"
+            />
+    <EditText android:id="@+id/anti"
+              android:layout_width="wrap_content"
+              android:layout_height="0dp"
+              android:hint="@string/antipatternquestion"
+              android:gravity="center"
+              android:layout_weight="8"
+              android:singleLine="true"
+            />
+    <Button android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/antisave"
+            android:textSize="20dp"
+            android:hint="@string/save"/>
+    <Button android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/antinext"
+            android:enabled="false"
+            android:textSize="20dp"
+            android:hint="@string/next"/>
+
+</LinearLayout>

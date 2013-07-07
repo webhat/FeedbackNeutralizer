@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2013 Daniël W. Crompton <info+fbn@specialbrands.net>
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/title"
+            android:text="@string/result"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/goal"
+            android:text="Goal"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:layout_weight="5"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:id="@+id/fears"
+            android:text="      • fear 1"
+            />
+    <Button android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/resultnext"
+            android:enabled="false"
+            android:textSize="20dp"
+            android:hint="@string/next"
+            android:visibility="invisible"
+            />
+    <Button android:layout_height="60dp"
+            android:layout_width="fill_parent"
+            android:id="@+id/send"
+            android:textSize="20dp"
+            android:hint="@string/sendtomyself"
+            />
+</LinearLayout>
